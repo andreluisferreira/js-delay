@@ -10,6 +10,7 @@ document.getElementById("execute").addEventListener("click", async () => {
 
     await delay(1000);
 
+    
     btn.innerHTML = `<i class="bi bi-play"></i> Execute`;
     btn.removeAttribute('disabled');
 
